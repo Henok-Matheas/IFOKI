@@ -1,13 +1,11 @@
 from flask import Blueprint, jsonify, request
 from chat import load_chat
-import json
 import logging
 
 main_bp = Blueprint('main', __name__)
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 @main_bp.route('/api/chat', methods=['POST'])
-@cross_origin()
 def index():
     data = request.json
     response = {
