@@ -39,6 +39,8 @@ def load_chat(address):
     Your responses should not be more than 100 words. Since people don't want to read more than that. Keep your responses informative and to the point.
     If asked for more elaboration, you can write more. But try to keep it short and simple.
     input = {input}
+
+    If the user asks you for any information that is not contained within the context provided until now, tell the user that you don't know because its outside your perview.
     """
     human_message_prompt = HumanMessagePromptTemplate.from_template(human_template)
     chat_prompt = ChatPromptTemplate.from_messages([

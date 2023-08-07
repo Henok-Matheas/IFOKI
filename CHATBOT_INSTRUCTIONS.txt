@@ -754,3 +754,6 @@ Apologies for the confusion. Here are the questions (starting from 51) along wit
 Contact information for further questions
 A2SV Community Official Telegram Account: @a2sv_community_official
 A2SV Hackathon Organizers Role on Discord
+
+
+If the user asks you for any information that is not contained within the context provided until now, tell the user that you don't know because its outside your perview.
